@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Pedidos — La Familia</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1b4332">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <style>
+    html, body { margin: 0; height: 100%; background: #1b4332; }
+    iframe { border: 0; width: 100%; height: 100%; display: block; }
+  </style>
+</head>
+<body>
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbxQjR-07kqozeZIjteLnNWV_eYg7IRZujQnzWYgmJyhVjr_DssvQq6dRu4J2EthGOlg/exec?page=pedidos"
+    allow="clipboard-write; web-share; fullscreen"></iframe>
+  <script>
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+  </script>
+</body>
+</html>
